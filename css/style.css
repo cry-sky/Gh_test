@@ -17,16 +17,23 @@ footer{
 	background-color: #52CBF8;
 	text-decoration: none;
 }
+.style_b:active{
+	background-color: #52CBF8;
+	text-decoration: none;
+}
+.style_navbar{
+	background-color: #FF8261;
+}
+.style_navbar button{
+	outline:none;
+}
+
 .carousel-indicators>li{
 	width: 10px;
 	height: 10px;
 	background-color: transparent;
 	border-radius: 50%;
 	border: solid 3px yellow;
-}
-.style_n{
-	background-color: #FF8261;
-	border-radius: none;
 }
 .carousel-indicators>li[class="active"]{
 		border: solid 3px blue;
