@@ -1,6 +1,9 @@
 .sec_1{
 	background-color: #222836;
 }
+.sec_1_s_2{
+	background:url("http://thepatternlibrary.com/img/ao.gif");
+}
 .sec_2{
 	background-color: #E7F4F8;
 }
@@ -79,18 +82,132 @@ span.red_line:before{
 .link_box a{
 	color: #909AAD;
 	font-size: 30px;
+}
+.link_box a i[class="fab fa-facebook-f"]:hover{
+	color: #3B579D;
+	transition: 0.5s;
+}
+.link_box a i[class="fab fa-twitter"]:hover{
+	color: #3FA6DB;
+	transition: 0.5s;
+}
+.link_box a i[class="fab fa-linkedin-in"]:hover{
+	color: #fff;
+	transition: 0.5s;
+}
+.link_box a i[class="fab fa-google-plus-g"]:hover{
+	color: red;
+	transition: 0.5s;
+}
+.link_box_l a{
+	font-size: 18px;
+	color: #bcbcbc;
+}
+.scop{
+	position: relative;
+}
+.scop:before{
+	content: "\275B\275B";
+	font-size: 30px;
+	position: absolute;
+	top: -30px;
+	left: -20px;
+}
+.style_li li{
+	list-style: none;
+	position: relative;
+}
+.style_li li:before{
+	content: "\203A";
+	font-size: 35px;
+	font-weight: bold;
+	position: absolute;
+	color: #000;
+	left: -20px;
+	top: -18px;
+}
+.for_img{
+	background-color: #bcbcbc;
+	max-width: 200px;
+	max-height: 200px;
+	min-width: 100px;
+	min-height: 100px;
+	position: relative;
+}
+.for_img:before{
+	content: "";
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.0);
+	line-height: 5;
+	font-size: 0;
+	color: transparent;
+}
+.for_img:hover:before{
+	content: "добавити зображення";
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: 1s;
+	transform: rotate(0);
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
+	border-top: solid 10px gray;
+}
+.for_img:after{
+	content: "\271A";
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.for_img:hover:after{
+	color: transparent;
 	transition: 1s;
 }
-.link_box a:nth-child(1):hover{
-	color: #3B579D;
+.style_circle{
+	background-color: #FF8261;
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	box-sizing: border-box;
 }
-.link_box a:nth-child(2):hover{
-	color: #3FA6DB;
+.style_circle div{
+	border: dotted 1px #fff;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
 }
-.link_box a:nth-child(3):hover{
-	color: #fff;
+.style_num{
+	background-color: #FF8261;
+	font-size: 30px;
 }
-.link_box a:nth-child(4):hover{
-	color: red;
+.style_price span:nth-child(1n+2){
+	font-size: 35px;
 }
-
+.style_price:hover{
+	text-decoration: none;
+	transition: 0.5s;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.style_input input{
+	outline: none;
+	border: none;
+}
+.style_input input:first-child{
+	border-bottom: dotted 1px rgba(0,0,0,0.2);
+}
