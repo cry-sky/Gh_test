@@ -10,11 +10,15 @@
 .sec_4{
 	background-color: #fffbde;
 }
+.sec_5{
+	background-color: #e7f4f8;
+}
 footer{
 	background-color: #4c515b;
 }
 .style_b{
 	background-color: #FF8261;
+	border: transparent 1px solid;
 }
 .style_b:hover{
 	background-color: #52CBF8;
@@ -30,7 +34,13 @@ footer{
 .style_navbar button{
 	outline:none;
 }
-
+.style_k{
+	background-color: #FF8261;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	line-height:55px;
+}
 .carousel-indicators>li{
 	width: 10px;
 	height: 10px;
@@ -99,9 +109,37 @@ span.red_line:before{
 	color: red;
 	transition: 0.5s;
 }
+.link_box a i[class="fab fa-youtube"]:hover{
+	color: red;
+	transition: 0.5s;
+}
+.link_box_blog a{
+	font-size: 18px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
 .link_box_l a{
 	font-size: 18px;
 	color: #bcbcbc;
+}
+.link_box_3 a{
+	font-size: 18px;
+	color: gray;
+}
+.link_box_3 a:hover{
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+}
+.link_num{
+	font-size: 18px;
+	color: #000;
+}
+a .link_num:hover{
+	background-color: #FF8261;
+	color: #fff ;
+	text-decoration: none;
+}
+a .link_num:active{
+	background-color: #FF8261; 
+	color: #fff;
 }
 .scop{
 	position: relative;
@@ -112,6 +150,11 @@ span.red_line:before{
 	position: absolute;
 	top: -30px;
 	left: -20px;
+}
+.color_red:before{
+	color:#FF8261;
+	left:10px;
+	font-size: 40px;
 }
 .style_li li{
 	list-style: none;
@@ -125,6 +168,9 @@ span.red_line:before{
 	color: #000;
 	left: -20px;
 	top: -18px;
+}
+.li_2 li:before{
+	color: #FF8261;
 }
 .for_img{
 	background-color: #bcbcbc;
@@ -208,6 +254,36 @@ span.red_line:before{
 	outline: none;
 	border: none;
 }
+.style_input_2 input{
+	outline: none;
+	border: none;
+	border: solid 1px rgba(0,0,0,0.2);
+}
+.style_input_2 textarea{
+	outline: none;
+	border: none;
+	border: solid 1px rgba(0,0,0,0.2);
+	resize: none;
+	height: 100px;
+}
 .style_input input:first-child{
 	border-bottom: dotted 1px rgba(0,0,0,0.2);
+}
+.style_search span{
+	color: #FF8261;
+	font-size: 20px;
+}
+.style_search input{
+	border: transparent 1px solid;
+	outline: none;
+}
+.style_search{
+	border-top: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.style_c{
+	font-size: 14px;
+}
+.map{
+	height: 250px;
 }

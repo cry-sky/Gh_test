@@ -8,9 +8,9 @@
 	<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
 </head>
 <body>
-	<header>
+<header>
 		<div class="container">
-			<div class="row mt-md-5">
+			<div class="row mt-md-5 d-none d-sm-block">
 				<div class="col-md-4 offset-md-0">
 					<div><a class="d-inline-block" href="#"><img class="mx-2 mx-sm-0" src="http://s1.iconbird.com/ico/2013/8/426/w64h64137758269727Cloud.png" alt="logo"><span class="text-dark pl-1 font-weight-bolder text-uppercase">hosting</span></a></div>
 				</div>
@@ -19,10 +19,15 @@
 				</div>
 			</div>
 			<div>
-				<nav class="navbar style_navbar d-block d-sm-none">
-					<button class="navbar-toggler navbar-toggler-right w-100 d-block" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="text-white"><i class="fas fa-align-justify"></i></span>
-					</button>
+				<nav class="navbar style_navbar d-block d-sm-none fixed-top">
+					<div class="row">
+						<div class="col-5"><a class="d-block w-100" href="#"><img class="w-25" src="http://s1.iconbird.com/ico/2013/8/426/w64h64137758269727Cloud.png" alt="logo"><span class="text-white pl-1 font-weight-bolder text-uppercase w-25">hosting</span></a></div>
+						<div class="col-2"><button class="navbar-toggler navbar-toggler-right w-100 d-block" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="text-white"><i class="fas fa-align-justify"></i></span>
+						</button></div>
+						<div class="col-5">	<p><a class="px-2 text-white" href="#">Register</a><a class="text-white px-2 border border-secondary border-right-0 border-top-0 border-bottom-0" href="#">login</a> </p></div>
+					</div>
+					
 
 					<div class="collapse navbar-collapse" id="navbarColor02">
 						<ul class="nav nav-pills nav-fill">
@@ -32,7 +37,7 @@
 							<li class="nav-item"><a href="hosting_plans.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Hosting plans</a></li>
 							<li class="nav-item"><a href="domain.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Domain</a></li>
 							<li class="nav-item"><a href="faq.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Faq</a></li>
-							<li class="nav-item"><a href="#" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Testimonials</a></li>
+							<li class="nav-item"><a href="testimonials.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Testimonials</a></li>
 							<li class="nav-item"><a href="blog.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Blog</a></li>
 							<li class="nav-item"><a href="support.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Support</a></li>
 							<li class="nav-item"><a href="contact_us.html" class="style_b px-1 text-white w-100 h-100 d-inline-block py-1">Contact us</a></li>
@@ -48,7 +53,7 @@
 						<li class="nav-item"><a href="hosting_plans.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">hosting plans</a></li>
 						<li class="nav-item"><a href="domain.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">domain</a></li>
 						<li class="nav-item"><a href="faq.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">faq</a></li>
-						<li class="nav-item"><a href="#" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">testimonials</a></li>
+						<li class="nav-item"><a href="testimonials.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">testimonials</a></li>
 						<li class="nav-item"><a href="blog.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">blog</a></li>
 						<li class="nav-item"><a href="support.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">support</a></li>
 						<li class="nav-item"><a href="contact_us.html" class="style_b px-3 px-sm-4 px-md-1 text-white w-100 h-100 d-inline-block py-2">contact us</a></li>
@@ -57,13 +62,128 @@
 			</div>
 		</div>
 	</header>
-	<section class="sec_1">
-		<h1 class="text-white text-center py-5">coming soon...</h1>
+	<section class="sec_1_s_2">
+		<div class="container py-2 py-sm-3 py-md-5 text-uppercase text-white">
+			<h1>testimanials</h1>
+			<span>happy clients</span>
+		</div>
+		
+	</section>
+	<section>
+		<div class="container py-2 py-sm-3 py-md-5">
+			<div class="mt-2 mb-3 mb-md-5">
+				<span class="red_line text-secondary text-uppercase w-100 text-center text-md-left d-inline-block">clients</span>
+				<h3 class="font-weight-bolder text-uppercase w-100 text-center text-md-left">testimonail</h3>
+			</div>
+			<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet reprehenderit delectus tempora dolores, aliquam nihil in, iusto optio provident accusamus.</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae perferendis, obcaecati totam, eius reiciendis debitis modi ipsum. Dolore incidunt, commodi repellat ex!</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quisquam! Quasi omnis est qui exercitationem quis! Beatae laboriosam, officiis reiciendis dolorem praesentium, in odio doloribus optio atque deserunt reprehenderit officia. Ipsam.</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam, error sunt. Autem eaque quaerat minus fuga laborum? Ut maxime, temporibus rem tempora tenetur molestiae nisi?</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio tempore omnis repudiandae atque!</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa magnam nisi pariatur porro illum, repellat veniam a et itaque eum quibusdam, assumenda nulla aliquid.</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptas voluptatem temporibus pariatur animi vero, repudiandae sapiente eveniet sint, ipsum earum libero ullam quis aut maxime corrupti facere, nemo neque omnis.</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, ut. Provident deserunt error hic delectus aliquid autem optio illum, harum laboriosam tempore.</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="scop color_red pt-4 mb-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quas, consequuntur dolore!</p>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3"><img class="w-100 rounded-circle" src="http://s006.radikal.ru/i214/1401/b2/5f951db9bc25.jpg" alt="1"></div>
+					<div class="col-9 pl-2"><span class="text-uppercase text-secondary d-block mt-2 mb-n1">by</span><span class="text-uppercase font-weight-bolder d-block">nimisha john</span> </div>
+				</div>
+			</div>
+
+			</div>
+		</div>
 	</section>
 	
+		<section>
+		<div class="container py-2 py-sm-3 py-md-5">
+			
+			<form>
+				<div class="row">
+					<div class="col-md-6 mb-md-5">
+						<input class="w-100 form-control mb-2 py-2 px-3" type="text" placeholder="Name">
+						<input class="w-100 form-control mb-2 py-2 px-3" type="text" placeholder="Subject">
+						<input class="w-100 form-control mb-2 py-2 px-3" type="text" placeholder="Commentse">
+					</div>
+					<div class="col-md-6">
+						<input class="w-100 form-control mb-2 py-2 px-3" type="email" placeholder="Email">
+					</div>
+					<input class="style_b text-center text-white text-uppercase font-weight-bolder px-5 py-2
+					mt-3 mx-auto  mx-md-0" value="submit" type="submit">
+				</div>
+			</form>
+		</div>
+	</section>
 
-<section>
-	<div class="container">
+<section class="sec_5">
+	<div class="container py-2 py-sm-3 py-md-5">
 		<div class="row">
 			<form action="" class="form-inline w-100">
 				<div class="col-md-9">
